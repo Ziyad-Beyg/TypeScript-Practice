@@ -25,7 +25,7 @@ function App() {
   ]
   return (
     <div className="App">
-        <Greet name='Ziyad' messages={10} online={false}/>
+        <Greet name='Ziyad' online={true}/>
         <Person name = {personName}/>
         <PersonList names={namesList} /> 
     </div>
